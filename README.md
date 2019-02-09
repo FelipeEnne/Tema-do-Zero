@@ -7,3 +7,11 @@
 * Criando as pasta css, images e js
 * Criando o header
 * Adicionando o Bootstrap
+
+08/02/2019
+
+* Criando o cabeçalho do site
+
+09/02/2019
+
+* Adiconado a busca no menu
