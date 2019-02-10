@@ -12,7 +12,7 @@ body{
 	border:0;
 }
 .navbar-nav>li>a {
-    padding-top: 12px;
+    padding-top: 11px;
     padding-bottom: 13px;
     color:white;
 }
@@ -86,11 +86,40 @@ body{
 }
 .social_area{
 	background-color: #3382b5;
-	height: 100%;
-	margin-top: -9px;
+	height: 57px;
+	margin-top: -8px;
+	color: #c2dae9;
 
 }
 .main_info .row{
 	margin: 0;
 
+}
+.randompost{
+	line-height: 55px;
+	color:#999999;
+}
+.randompost a{
+
+	color:#999999;
+	margin-left: 30px;
+}
+
+.socialtxt{
+	line-height: 55px;
+	float: left;
+
+}
+
+.socialicons{
+	float: right;
+	height: 20px;
+	margin-top: 17px;
+}
+
+.socialicons img{
+	height: 20px;
+}
+.socialicons a{
+	text-decoration: none;
 }
