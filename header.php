@@ -11,7 +11,7 @@
 
 		<div class="top_header">
 			<nav class="navbar navbar-defaut">
-				<div class="container-fluid">
+				<div class="container">
 					<div class="collapse navbar-collapse">
 
 						<?php
@@ -34,7 +34,7 @@
 
 
 		<div class="main_header">
-			<div class="container-fluid">
+			<div class="container">
 				<div class="logo">
 				<?php if(has_custom_logo()){
 					the_custom_logo();

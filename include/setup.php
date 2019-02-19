@@ -25,5 +25,27 @@ function ftz_after_setup() {
 }
 //*/
 function ftz_widgets() {
-	
+	register_sidebar(array(
+			'name' => 'Sidebar Lateral',
+			'id' => 'bm_sidebar',
+			'description' => 'Sidebar Lateral',
+			'before_widget' => '<div id="%1$s" class="widget %2$s">',
+			'afer_widget' => '</div>',
+			'before_title' => '<h4 class="widget_title">',
+			'after_title' => '</h4>'
+		));
+
+	register_sidebar(array(
+			'name' => 'Sidebar Rodapé',
+			'id' => 'bm_footersidebar',
+			'description' => 'Sidebar Rodapé',
+			'before_widget' => '<div id="%1$s" class="widget %2$s">',
+			'afer_widget' => '</div>',
+			'before_title' => '<h4 class="widget_title">',
+			'after_title' => '</h4>'
+		));
+
+
+
+
 }

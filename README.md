@@ -19,3 +19,13 @@
 10/02/2019
 
 * Finalizando o cabeçalho
+
+12/02/2019 
+
+* Criando o Sidebar
+
+18/02/2019
+
+* Criando o Footer
+* Adicionando os widgets
+* Colocando o efeito scroll no JS
