@@ -29,3 +29,8 @@
 * Criando o Footer
 * Adicionando os widgets
 * Colocando o efeito scroll no JS
+
+20/02/2019
+
+* Adicionando o Home
+* Configurando os posts
