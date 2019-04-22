@@ -220,8 +220,13 @@ footer {
 	min-height: 200px;
 }
 
+.post_info img{
+	width: 120px;
+	height: auto;
+}
+
 .post_thumb{
-	width: 100%
+	width: 100%;
 	height:auto;
 	margin-top: -15px;
 }
@@ -241,6 +246,12 @@ footer {
 	color: #b0afb0;
 }
 
+
+.pag{
+	margin: 25px;
+}
+
+
 .previous_pag{
 	float: left;
 	text-align: left;
@@ -250,14 +261,101 @@ footer {
 	text-align: right;
 }
 
-.pag{
-	margin: 25px;
+.post_content {
+	padding-bottom: 30px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.post_content img {
+	max-width: 100%;
+	height: auto;
+}
+
+.post_title_single {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 25px;
 }
 
 
+/* Tablet Horizontal ou monitor menor*/
+
+@media (min-width: 992px) and (max-width: 1199px){
 
 
+}
 
 
+@media (min-width: 481px) and (max-width: 768px){
 
+	.maincontent article {
+    	width: 100%;
+    	float: none;
+	}
+	.maincontent article.post_item{
+		height: auto;
+		margin: 0;
+		padding-top: 15px;
+	}
 
+	
+}
+
+@media (max-width: 480px){
+
+	/*footer_widgets .row{
+		display:block;
+	}*/
+
+	.top_header{
+		height: auto;
+	}
+
+	.navbar{
+		margin-bottom: 0px;
+	}
+
+	.navbar-toggle{
+		border: 0.5px solid white;
+	}
+	.navbar-toggle .icon-bar {
+		border: 0.5px solid white;
+	}
+
+	.logo {
+       	text-align: center;
+       	padding-top: 40;
+	}
+
+	.main_info, .search_area{
+		display: none;
+	}
+
+	.main_nav{
+		height: auto;
+	}
+
+	.main_nav_border {
+    	display: none;
+	}
+
+	.maincontent article {
+    	width: 100%;
+    	float: none;
+	}
+
+	.maincontent, .sidebar{
+		padding-top: 1px;
+	}
+	.pag {
+		padding: 1px;
+		margin:0px;
+	}
+
+	.maincontent article .post_item{
+		height: auto;
+		margin: 0;
+		padding-top: 15px;
+	}
+
+}

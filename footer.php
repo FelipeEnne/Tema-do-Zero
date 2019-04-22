@@ -1,14 +1,14 @@
 
 <footer>
-	<div class="footer_widgets">
+	<!--<div class="footer_widgets">
 		<div class="row">
 			<?php
-			if(is_active_sidebar('bm_footersidebar')) {
-				dynamic_sidebar('bm_footersidebar');
-			}
+			//if(is_active_sidebar('bm_footersidebar')) {
+			//dynamic_sidebar('bm_footersidebar');
+			//}
 			?>
 		</div>
-	</div>
+	</div>-->
 	<div class="mainfooter">
 		<div class="mainfooter_left">
 			Todos os direitos reservados.
@@ -21,5 +21,7 @@
 		</div>
 	</div>
 </footer>
+<?php wp_footer(); ?>
+
 </body>
 </html>

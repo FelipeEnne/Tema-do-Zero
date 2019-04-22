@@ -1,6 +1,8 @@
 <html>
 
 	<head>
+		<meta name="viewport" 
+		content="width=device-width,initial-scale=1,user-scalable=no"/>
 		<?php wp_head();?>
 
 	</head>
@@ -12,7 +14,17 @@
 		<div class="top_header">
 			<nav class="navbar navbar-defaut">
 				<div class="container">
-					<div class="collapse navbar-collapse">
+
+					<div class ="navbar-header">
+						<div class="navbar-toggle" data-toggle="collapse"
+						data-target="#navbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</div>
+					</div>
+
+					<div class="collapse navbar-collapse" id="navbar">
 
 						<?php
 						if(has_nav_menu('top')){

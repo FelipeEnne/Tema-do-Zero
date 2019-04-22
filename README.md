@@ -34,3 +34,8 @@
 
 * Adicionando o Home
 * Configurando os posts
+
+22/04/2019
+
+* Configurando Single Pages, Archive, Category e Search
+* Tranformando em um layout responsivo
